@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.contact>ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.loging{
+    display: flex;
+    gap: 10px;
+
+}
+.English{
+    display: flex;
+    gap: 10px;
+}
+.menu{
+    padding-top: 15px;
+    background-color: black;
+    display: flex;
+
+
+}
+.logo{
+    display: flex;
+    background-color: black;
+    padding-left: 200px;
+    align-items: center;
+}
+.about{
+    color: azure;
+    display:flex;
+    gap: 30px;
+    padding-left: 200px;
+    justify-content: space-between;
+    font-size: larger;
+    align-items: center;
+}
+.welcome{
+    background-color: black;
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+.checkout{
+    display: grid;
+    background-color: rgb(249, 249, 249);
+    grid-template-columns: repeat(5,1fr);
+    padding-top: 25px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+.checkout>div{
+    width: 200px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 30px;
+
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.items11{
+    grid-column-end; /span 1;
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    align-items: center;
+}
+
+.aboutus{
+    display: flex;
+    justify-content: space-between;
+}
+.about1{
+    padding-left: 100px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 20px;
+    padding-top: 100px;
+}
+.about1>div{
+    padding: 20px;
+}
+.servies{
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.servies-name{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.servie-items>div{
+    display: inline;
+    justify-content: space-between;
+}
+.our-room{
+    text-align: center;
+    padding-top: 20px;
+}
+.our-room p{
+    font-size: 30px;
+    color: rgb(2, 2, 2));
+    font-weight:500;
+}
+
+.our-room h1{
+    font-size: 20px;
+    color: rgb(228, 242, 29);
+}
+.img-contain{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.img-contain>ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: space-between;
+}
