@@ -6,6 +6,9 @@
     display: flex;
     justify-content: space-between;
 }
+.contact{
+    padding-left: 40px;
+}
 .contact>ul{
     display: flex;
     gap: 20px;
@@ -15,6 +18,7 @@
 .loging{
     display: flex;
     gap: 10px;
+     padding-right: 30px;
 
 }
 .English{
